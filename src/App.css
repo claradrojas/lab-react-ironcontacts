@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.contacts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contacts {
+  outline: 1px solid grey;
+  padding: 0.5rem;
+  margin: 2.5% auto;
+  flex: 0 1 20%;
+}
+
+.random-button {
+  position:absolute;
+  top:0;
+  right:20;
+  margin: 1rem auto;
+  border:1px solid
+}
+
+
+.sort-name-button {
+  position:absolute;
+  top:0;
+  right: 450px;
+  margin: 1rem auto;
+  border:1px solid
+}
+
+.sort-pop-button {
+  position:absolute;
+  top:0;
+  left: 450px;
+  margin: 1rem auto;
+  border:1px solid
+}
+
+.delete-button {
+  margin: 2rem auto;
+  border:1px solid
+}
